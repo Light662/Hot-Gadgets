@@ -1,0 +1,142 @@
+.container{
+    margin-bottom: 85px;
+}
+.header{
+font-family: "Poppins";
+font-size: 41px;
+font-weight: 500;
+font-style: normal;
+color: #1f1f1f;
+}
+.line-edit{
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 300;
+line-height: 35px;
+font-style: normal;
+color: #707070;
+}
+.carousel-indicators .active {
+    background-image: linear-gradient(168deg, #ff9c35 0.00%, #ffd019 100.00%);
+
+}
+#carouselExampleIndicators .carousel-indicators button{
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   margin: 0 5px;
+   background-color: #cecece;
+}
+.buy-now-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 179px;
+    height: 57px;
+    border-radius: 9px;
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.buy-now-button:hover {
+    background-color: #333333;
+}
+.buy-now-button:active {
+    transform: scale(0.95);
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.header-3{
+width: 190px;
+height: 43px;
+font-family: "Poppins";
+font-size: 30px;
+font-weight: 500;
+font-style: normal;
+color: #1f1f1f;
+}
+.see-all{
+width: 74px;
+height: 31px;
+font-family: "Poppins";
+font-size: 22px;
+font-weight: 500;
+font-style: normal;
+color: #ff9d00;
+text-decoration: none;
+cursor: pointer;
+}
+.card-img-top{
+    object-fit: none;
+}
+.card-price{
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+font-style: normal;
+color: #1f1f1f;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 21px;
+}
+.categories-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.categories-section h2 {
+    font-weight: 600;
+}
+
+.categories-section h2::after {
+    content: "";
+    display: block;
+    margin: 8px auto;
+    width: 135.5px;
+    height: 9.7px;
+    border-radius: 16.687427520751953px;
+    background: #ff9c35;
+    background: linear-gradient(-169deg, 
+    #ff9c35 0.00%, 
+    #ffd019 100.00%);
+}
+
+.category-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition:0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card img {
+    width: 50px;
+}
+
+.category-card p {
+    font-weight: 500;
+    margin-top: 10px;
+}
+.illustratio {
+    max-width: 100%;
+}
+.categories-link:link,.categories-link:visited{
+    text-decoration: none;
+    color: black;
+}
